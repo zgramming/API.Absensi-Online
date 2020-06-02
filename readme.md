@@ -4,7 +4,7 @@ Codeigniter API untuk Absensi Online
 
 # Konfigurasi API 
 
-Buka folder `application/config/database.php` , lalu sesuaikan **hostname,username,password dan database** dengan punya kamu.
+- Buka folder `application/config/database.php` , lalu sesuaikan **hostname,username,password dan database** dengan punya kamu.
 
 ```
 
@@ -31,7 +31,4 @@ $db['default'] = array(
 );
 
 ```
-
-# File Pendukung
-
-* <a href="http://www.zimprov.id/absensi_online/readme/absensi_online/zcollect_absen.sql" style="font-weight:bold;">Download Database</a>
+- Buat database pada **phpmyadmin** , kemudian import database yang ada di repository ke database yang baru dibuat.
